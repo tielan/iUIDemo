@@ -12,7 +12,18 @@
 		DB8ACAB2216D889F004E32AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8ACAB1216D889F004E32AE /* Assets.xcassets */; };
 		DB8ACAB5216D889F004E32AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8ACAB3216D889F004E32AE /* LaunchScreen.storyboard */; };
 		DB8ACAB8216D889F004E32AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACAB7216D889F004E32AE /* main.m */; };
-		FF72573F7A14CCDBEC53A95A /* libPods-UIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E62B9A86B5FCB5800BB0FEA /* libPods-UIDemo.a */; };
+		DB8ACBE4217454E3004E32AE /* UniversallyADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBE3217454E3004E32AE /* UniversallyADCell.m */; };
+		DB8ACC0221745CF7004E32AE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB8ACBE821745CF6004E32AE /* Info.plist */; };
+		DB8ACC0321745CF7004E32AE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBEA21745CF6004E32AE /* MASCompositeConstraint.m */; };
+		DB8ACC0421745CF7004E32AE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBED21745CF6004E32AE /* MASConstraint.m */; };
+		DB8ACC0521745CF7004E32AE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBEF21745CF6004E32AE /* MASConstraintMaker.m */; };
+		DB8ACC0621745CF7004E32AE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBF121745CF6004E32AE /* MASLayoutConstraint.m */; };
+		DB8ACC0721745CF7004E32AE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBF521745CF6004E32AE /* MASViewAttribute.m */; };
+		DB8ACC0821745CF7004E32AE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBF721745CF6004E32AE /* MASViewConstraint.m */; };
+		DB8ACC0921745CF7004E32AE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBF921745CF6004E32AE /* NSArray+MASAdditions.m */; };
+		DB8ACC0A21745CF7004E32AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBFC21745CF6004E32AE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		DB8ACC0B21745CF7004E32AE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACBFE21745CF6004E32AE /* View+MASAdditions.m */; };
+		DB8ACC0C21745CF7004E32AE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACC0121745CF6004E32AE /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +39,35 @@
 		DB8ACAB4216D889F004E32AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB8ACAB6216D889F004E32AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8ACAB7216D889F004E32AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB8ACBE2217454E3004E32AE /* UniversallyADCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversallyADCell.h; sourceTree = "<group>"; };
+		DB8ACBE3217454E3004E32AE /* UniversallyADCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversallyADCell.m; sourceTree = "<group>"; };
+		DB8ACBE821745CF6004E32AE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8ACBE921745CF6004E32AE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DB8ACBEA21745CF6004E32AE /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DB8ACBEB21745CF6004E32AE /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DB8ACBEC21745CF6004E32AE /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DB8ACBED21745CF6004E32AE /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		DB8ACBEE21745CF6004E32AE /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DB8ACBEF21745CF6004E32AE /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		DB8ACBF021745CF6004E32AE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DB8ACBF121745CF6004E32AE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		DB8ACBF221745CF6004E32AE /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DB8ACBF321745CF6004E32AE /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DB8ACBF421745CF6004E32AE /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DB8ACBF521745CF6004E32AE /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		DB8ACBF621745CF6004E32AE /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DB8ACBF721745CF6004E32AE /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		DB8ACBF821745CF6004E32AE /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DB8ACBF921745CF6004E32AE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DB8ACBFA21745CF6004E32AE /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DB8ACBFB21745CF6004E32AE /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DB8ACBFC21745CF6004E32AE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DB8ACBFD21745CF6004E32AE /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DB8ACBFE21745CF6004E32AE /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		DB8ACBFF21745CF6004E32AE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DB8ACC0021745CF6004E32AE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DB8ACC0121745CF6004E32AE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		DB8ACC6B21745E25004E32AE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF72573F7A14CCDBEC53A95A /* libPods-UIDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DB8ACAA7216D889E004E32AE /* UIDemo */,
+				DB8ACBE621745CF6004E32AE /* Dependes */,
 				DB8ACAA6216D889E004E32AE /* Products */,
 				D8A89861D8086ED4B5C32021 /* Pods */,
 				A7DD7EC84F8A9E31CAFC1897 /* Frameworks */,
@@ -80,6 +120,7 @@
 		DB8ACAA7216D889E004E32AE /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB8ACBDE21745449004E32AE /* ColectionCell */,
 				DB8ACAA8216D889E004E32AE /* AppDelegate.h */,
 				DB8ACAA9216D889E004E32AE /* AppDelegate.m */,
 				DB8ACAAB216D889E004E32AE /* ViewController.h */,
@@ -88,8 +129,59 @@
 				DB8ACAB3216D889F004E32AE /* LaunchScreen.storyboard */,
 				DB8ACAB6216D889F004E32AE /* Info.plist */,
 				DB8ACAB7216D889F004E32AE /* main.m */,
+				DB8ACC6B21745E25004E32AE /* PrefixHeader.pch */,
 			);
 			path = UIDemo;
+			sourceTree = "<group>";
+		};
+		DB8ACBDE21745449004E32AE /* ColectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				DB8ACBE2217454E3004E32AE /* UniversallyADCell.h */,
+				DB8ACBE3217454E3004E32AE /* UniversallyADCell.m */,
+			);
+			path = ColectionCell;
+			sourceTree = "<group>";
+		};
+		DB8ACBE621745CF6004E32AE /* Dependes */ = {
+			isa = PBXGroup;
+			children = (
+				DB8ACBE721745CF6004E32AE /* Masonry */,
+			);
+			path = Dependes;
+			sourceTree = "<group>";
+		};
+		DB8ACBE721745CF6004E32AE /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DB8ACBE821745CF6004E32AE /* Info.plist */,
+				DB8ACBE921745CF6004E32AE /* MASCompositeConstraint.h */,
+				DB8ACBEA21745CF6004E32AE /* MASCompositeConstraint.m */,
+				DB8ACBEB21745CF6004E32AE /* MASConstraint+Private.h */,
+				DB8ACBEC21745CF6004E32AE /* MASConstraint.h */,
+				DB8ACBED21745CF6004E32AE /* MASConstraint.m */,
+				DB8ACBEE21745CF6004E32AE /* MASConstraintMaker.h */,
+				DB8ACBEF21745CF6004E32AE /* MASConstraintMaker.m */,
+				DB8ACBF021745CF6004E32AE /* MASLayoutConstraint.h */,
+				DB8ACBF121745CF6004E32AE /* MASLayoutConstraint.m */,
+				DB8ACBF221745CF6004E32AE /* Masonry.h */,
+				DB8ACBF321745CF6004E32AE /* MASUtilities.h */,
+				DB8ACBF421745CF6004E32AE /* MASViewAttribute.h */,
+				DB8ACBF521745CF6004E32AE /* MASViewAttribute.m */,
+				DB8ACBF621745CF6004E32AE /* MASViewConstraint.h */,
+				DB8ACBF721745CF6004E32AE /* MASViewConstraint.m */,
+				DB8ACBF821745CF6004E32AE /* NSArray+MASAdditions.h */,
+				DB8ACBF921745CF6004E32AE /* NSArray+MASAdditions.m */,
+				DB8ACBFA21745CF6004E32AE /* NSArray+MASShorthandAdditions.h */,
+				DB8ACBFB21745CF6004E32AE /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DB8ACBFC21745CF6004E32AE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				DB8ACBFD21745CF6004E32AE /* View+MASAdditions.h */,
+				DB8ACBFE21745CF6004E32AE /* View+MASAdditions.m */,
+				DB8ACBFF21745CF6004E32AE /* View+MASShorthandAdditions.h */,
+				DB8ACC0021745CF6004E32AE /* ViewController+MASAdditions.h */,
+				DB8ACC0121745CF6004E32AE /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,12 +191,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB8ACABB216D889F004E32AE /* Build configuration list for PBXNativeTarget "UIDemo" */;
 			buildPhases = (
-				A5D297F4FC8E2DA89FA476FF /* [CP] Check Pods Manifest.lock */,
 				DB8ACAA1216D889E004E32AE /* Sources */,
 				DB8ACAA2216D889E004E32AE /* Frameworks */,
 				DB8ACAA3216D889E004E32AE /* Resources */,
-				CB6554B1DD7D0ACFA7487953 /* [CP] Embed Pods Frameworks */,
-				7C1ED4A2423CDA40116BF16C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,73 +243,31 @@
 			files = (
 				DB8ACAB5216D889F004E32AE /* LaunchScreen.storyboard in Resources */,
 				DB8ACAB2216D889F004E32AE /* Assets.xcassets in Resources */,
+				DB8ACC0221745CF7004E32AE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7C1ED4A2423CDA40116BF16C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo-resources.sh",
-				"${PODS_ROOT}/YJBannerView/YJBannerViewDemo/YJBannerView/Resource/YJBannerView.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YJBannerView.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A5D297F4FC8E2DA89FA476FF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UIDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB6554B1DD7D0ACFA7487953 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB8ACAA1216D889E004E32AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8ACC0521745CF7004E32AE /* MASConstraintMaker.m in Sources */,
 				DB8ACAAD216D889E004E32AE /* ViewController.m in Sources */,
+				DB8ACBE4217454E3004E32AE /* UniversallyADCell.m in Sources */,
+				DB8ACC0421745CF7004E32AE /* MASConstraint.m in Sources */,
+				DB8ACC0C21745CF7004E32AE /* ViewController+MASAdditions.m in Sources */,
+				DB8ACC0621745CF7004E32AE /* MASLayoutConstraint.m in Sources */,
+				DB8ACC0921745CF7004E32AE /* NSArray+MASAdditions.m in Sources */,
+				DB8ACC0821745CF7004E32AE /* MASViewConstraint.m in Sources */,
+				DB8ACC0721745CF7004E32AE /* MASViewAttribute.m in Sources */,
+				DB8ACC0B21745CF7004E32AE /* View+MASAdditions.m in Sources */,
 				DB8ACAB8216D889F004E32AE /* main.m in Sources */,
 				DB8ACAAA216D889E004E32AE /* AppDelegate.m in Sources */,
+				DB8ACC0321745CF7004E32AE /* MASCompositeConstraint.m in Sources */,
+				DB8ACC0A21745CF7004E32AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +403,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH2UL3R56U;
+				GCC_PREFIX_HEADER = /Users/iosteams/twork/iUIDemo/UIDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = UIDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tielan.UIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -373,8 +424,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH2UL3R56U;
+				GCC_PREFIX_HEADER = /Users/iosteams/twork/iUIDemo/UIDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = UIDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tielan.UIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
