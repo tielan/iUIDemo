@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB472E5C21A677270043F773 /* TLWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB472E5B21A677270043F773 /* TLWebViewViewController.m */; };
+		DB472E6621A6826E0043F773 /* JHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB472E5F21A6826E0043F773 /* JHUD.m */; };
+		DB472E6721A6826E0043F773 /* JHUDAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB472E6121A6826E0043F773 /* JHUDAnimationView.m */; };
+		DB472E6821A6826E0043F773 /* UIImage+JHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB472E6321A6826E0043F773 /* UIImage+JHUD.m */; };
+		DB472E6921A6826E0043F773 /* UIView+JHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DB472E6521A6826E0043F773 /* UIView+JHUD.m */; };
 		DB8ACAAA216D889E004E32AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACAA9216D889E004E32AE /* AppDelegate.m */; };
 		DB8ACAAD216D889E004E32AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACAAC216D889E004E32AE /* ViewController.m */; };
 		DB8ACAB2216D889F004E32AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8ACAB1216D889F004E32AE /* Assets.xcassets */; };
@@ -30,6 +35,16 @@
 		20796DF021E88DAF6029410D /* Pods-UIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2D2638EBA8C42648ECD18A95 /* Pods-UIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4E62B9A86B5FCB5800BB0FEA /* libPods-UIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB472E5A21A677270043F773 /* TLWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLWebViewViewController.h; sourceTree = "<group>"; };
+		DB472E5B21A677270043F773 /* TLWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLWebViewViewController.m; sourceTree = "<group>"; };
+		DB472E5E21A6826E0043F773 /* JHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUD.h; sourceTree = "<group>"; };
+		DB472E5F21A6826E0043F773 /* JHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUD.m; sourceTree = "<group>"; };
+		DB472E6021A6826E0043F773 /* JHUDAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUDAnimationView.h; sourceTree = "<group>"; };
+		DB472E6121A6826E0043F773 /* JHUDAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUDAnimationView.m; sourceTree = "<group>"; };
+		DB472E6221A6826E0043F773 /* UIImage+JHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JHUD.h"; sourceTree = "<group>"; };
+		DB472E6321A6826E0043F773 /* UIImage+JHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JHUD.m"; sourceTree = "<group>"; };
+		DB472E6421A6826E0043F773 /* UIView+JHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHUD.h"; sourceTree = "<group>"; };
+		DB472E6521A6826E0043F773 /* UIView+JHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHUD.m"; sourceTree = "<group>"; };
 		DB8ACAA5216D889E004E32AE /* UIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8ACAA8216D889E004E32AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB8ACAA9216D889E004E32AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +113,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DB472E5821A677060043F773 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				DB472E5A21A677270043F773 /* TLWebViewViewController.h */,
+				DB472E5B21A677270043F773 /* TLWebViewViewController.m */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
+		DB472E5D21A6826E0043F773 /* TS_JHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DB472E5E21A6826E0043F773 /* JHUD.h */,
+				DB472E5F21A6826E0043F773 /* JHUD.m */,
+				DB472E6021A6826E0043F773 /* JHUDAnimationView.h */,
+				DB472E6121A6826E0043F773 /* JHUDAnimationView.m */,
+				DB472E6221A6826E0043F773 /* UIImage+JHUD.h */,
+				DB472E6321A6826E0043F773 /* UIImage+JHUD.m */,
+				DB472E6421A6826E0043F773 /* UIView+JHUD.h */,
+				DB472E6521A6826E0043F773 /* UIView+JHUD.m */,
+			);
+			path = TS_JHUD;
+			sourceTree = "<group>";
+		};
 		DB8ACA9C216D889E004E32AE = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +159,8 @@
 		DB8ACAA7216D889E004E32AE /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB472E5D21A6826E0043F773 /* TS_JHUD */,
+				DB472E5821A677060043F773 /* webview */,
 				DB8ACBDE21745449004E32AE /* ColectionCell */,
 				DB8ACAA8216D889E004E32AE /* AppDelegate.h */,
 				DB8ACAA9216D889E004E32AE /* AppDelegate.m */,
@@ -259,14 +300,19 @@
 				DB8ACBE4217454E3004E32AE /* UniversallyADCell.m in Sources */,
 				DB8ACC0421745CF7004E32AE /* MASConstraint.m in Sources */,
 				DB8ACC0C21745CF7004E32AE /* ViewController+MASAdditions.m in Sources */,
+				DB472E6921A6826E0043F773 /* UIView+JHUD.m in Sources */,
 				DB8ACC0621745CF7004E32AE /* MASLayoutConstraint.m in Sources */,
 				DB8ACC0921745CF7004E32AE /* NSArray+MASAdditions.m in Sources */,
 				DB8ACC0821745CF7004E32AE /* MASViewConstraint.m in Sources */,
+				DB472E6721A6826E0043F773 /* JHUDAnimationView.m in Sources */,
 				DB8ACC0721745CF7004E32AE /* MASViewAttribute.m in Sources */,
+				DB472E5C21A677270043F773 /* TLWebViewViewController.m in Sources */,
 				DB8ACC0B21745CF7004E32AE /* View+MASAdditions.m in Sources */,
 				DB8ACAB8216D889F004E32AE /* main.m in Sources */,
+				DB472E6621A6826E0043F773 /* JHUD.m in Sources */,
 				DB8ACAAA216D889E004E32AE /* AppDelegate.m in Sources */,
 				DB8ACC0321745CF7004E32AE /* MASCompositeConstraint.m in Sources */,
+				DB472E6821A6826E0043F773 /* UIImage+JHUD.m in Sources */,
 				DB8ACC0A21745CF7004E32AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
