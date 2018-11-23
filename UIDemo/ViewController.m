@@ -12,6 +12,7 @@
 #import "LBXPermissionSetting.h"
 #import "TLScanViewController.h"
 #import "CreateBarCodeViewController.h"
+#import "LoginViewController.h"
 
 @interface ViewController ()
 
@@ -47,6 +48,22 @@
         lineBtn.frame = CGRectMake(0, 84+64+64, 200, 44);
         [self.view addSubview:lineBtn];
     }
+    {
+        UIButton *lineBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+        [lineBtn addTarget:self action:@selector(weixinPay) forControlEvents:UIControlEventTouchUpInside];
+        [lineBtn setTitle:@"weixinPay" forState:UIControlStateNormal];
+        [lineBtn setTitle:@"weixinPay" forState:UIControlStateHighlighted];
+        lineBtn.frame = CGRectMake(0, 84+64+64+64, 200, 44);
+        [self.view addSubview:lineBtn];
+    }
+    {
+        UIButton *lineBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+        [lineBtn addTarget:self action:@selector(userLogin) forControlEvents:UIControlEventTouchUpInside];
+        [lineBtn setTitle:@"userLogin" forState:UIControlStateNormal];
+        [lineBtn setTitle:@"userLogin" forState:UIControlStateHighlighted];
+        lineBtn.frame = CGRectMake(0, 84+64+64+64+64, 200, 44);
+        [self.view addSubview:lineBtn];
+    }
 }
 
 -(void)webviewAciton{
@@ -55,6 +72,9 @@
     //vc.pageUrl = @"http://news.cctv1dfasdfasdf.com/m/la/index.shtml?id=ARTIGgV7iVpmT9Q82ICVnaS2181121";
 
     [self.navigationController pushViewController:vc animated:YES];
+}
+-(void)weixinPay{
+    
 }
 
 -(void)scanView{
@@ -70,6 +90,13 @@
         {
             [LBXPermissionSetting showAlertToDislayPrivacySettingWithTitle:@"提示" msg:@"没有相机权限，是否前往设置" cancel:@"取消" setting:@"设置" ];
         }
+    }];
+}
+
+-(void)userLogin{
+    LoginViewController *vc = [LoginViewController new];
+    [self.navigationController presentViewController:vc animated:YES completion:^{
+        
     }];
 }
 

@@ -51,6 +51,7 @@
 		DB8ACC0C21745CF7004E32AE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACC0121745CF6004E32AE /* ViewController+MASAdditions.m */; };
 		DBA8975021A691E3009CBBEE /* CreateBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA8974F21A691E3009CBBEE /* CreateBarCodeViewController.m */; };
 		DBA8975421A69322009CBBEE /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA8975321A69322009CBBEE /* UIImageView+CornerRadius.m */; };
+		DBA8975921A7BAAB009CBBEE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA8975821A7BAAB009CBBEE /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +149,8 @@
 		DBA8974F21A691E3009CBBEE /* CreateBarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateBarCodeViewController.m; sourceTree = "<group>"; };
 		DBA8975221A69322009CBBEE /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		DBA8975321A69322009CBBEE /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		DBA8975721A7BAAB009CBBEE /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DBA8975821A7BAAB009CBBEE /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +308,7 @@
 		DB8ACAA7216D889E004E32AE /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DBA8975521A7BA8F009CBBEE /* login */,
 				DB472EAD21A689CC0043F773 /* scan */,
 				DB472E5821A677060043F773 /* webview */,
 				DB8ACAA8216D889E004E32AE /* AppDelegate.h */,
@@ -372,6 +376,15 @@
 				DBA8975321A69322009CBBEE /* UIImageView+CornerRadius.m */,
 			);
 			path = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
+		DBA8975521A7BA8F009CBBEE /* login */ = {
+			isa = PBXGroup;
+			children = (
+				DBA8975721A7BAAB009CBBEE /* LoginViewController.h */,
+				DBA8975821A7BAAB009CBBEE /* LoginViewController.m */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +477,7 @@
 				DB8ACC0921745CF7004E32AE /* NSArray+MASAdditions.m in Sources */,
 				DB472EA921A689BD0043F773 /* LBXPermissionNetwork.m in Sources */,
 				DB472E8621A689420043F773 /* LBXScanNetAnimation.m in Sources */,
+				DBA8975921A7BAAB009CBBEE /* LoginViewController.m in Sources */,
 				DB8ACC0821745CF7004E32AE /* MASViewConstraint.m in Sources */,
 				DB472E6721A6826E0043F773 /* JHUDAnimationView.m in Sources */,
 				DB8ACC0721745CF7004E32AE /* MASViewAttribute.m in Sources */,
